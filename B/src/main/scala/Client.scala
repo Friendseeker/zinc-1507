@@ -3,5 +3,5 @@ package B
 import A.Refined
 
 class Client {
-  def temp = new Refined().select().where().using(null)
+  def temp = new Refined().select().using(null)
 }
